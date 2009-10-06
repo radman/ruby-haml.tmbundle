@@ -85,9 +85,9 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*:javascript</string>
+			<string>^\s*:javascript$</string>
 			<key>end</key>
-			<string>^(?!\1  )</string>
+			<string>^(?!  )</string>
 			<key>name</key>
 			<string>meta.section.filter.js</string>
 			<key>patterns</key>
@@ -100,9 +100,9 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*:ejs</string>
+			<string>^\s*:ejs$</string>
 			<key>end</key>
-			<string>^(?!\1  )</string>
+			<string>^(?!  )</string>
 			<key>name</key>
 			<string>meta.section.filter.ejs</string>
 			<key>patterns</key>
